@@ -1,0 +1,6 @@
+<h1>Results Page</h1>
+
+<!-- Running forEach loop on "data".Search , data defined in app.js as parsed API data -->
+<% data.Search.forEach(function(movie){ %>
+    <li><%= movie.Title %></li>
+<% }) %>
